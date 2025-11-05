@@ -59,22 +59,22 @@ You can also **generate AI-enhanced summaries**, **switch templates**, and **sha
 
 🔐 Authentication Flow
 
-User signs up → password hashed with bcrypt → saved in MongoDB
+1. User signs up → password hashed with bcrypt → saved in MongoDB
 
-User logs in → JWT token generated → stored in localStorage
+2. User logs in → JWT token generated → stored in localStorage
 
-Protected routes validated using JWT on backend
+3. Protected routes validated using JWT on backend
 
-User logs out → JWT token removed from client
+4. User logs out → JWT token removed from client
 
 ---
 
 🤖 AI Integration
 
-Enhance Professional Summaries and Job Descriptions using OpenAI API.
+1. Enhance Professional Summaries and Job Descriptions using OpenAI API.
 
-Context-aware AI suggestions tailored for industry standards.
+2. Context-aware AI suggestions tailored for industry standards.
 
-Saves AI-enhanced content in MongoDB for each user.
+3. Saves AI-enhanced content in MongoDB for each user.
 
 ---
